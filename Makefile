@@ -31,3 +31,7 @@ docker_nginx_conf:
 # Запутсить сервер для разработки
 dev:
 	npm run dev
+
+# Скомпелировать конфигурационные файлы
+compile_env:
+	./configer.bin ./conf.py;
